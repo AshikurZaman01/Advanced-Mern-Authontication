@@ -1,0 +1,20 @@
+{
+  "name": "user-authetication",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd Front End && npm run dev",
+    "backEnd": "cd Back End && npm start",
+    "dev": "concurrently \"npm run frontend\" \"npm run backEnd\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "jwt-decode": "^4.0.0",
+    "nodemailer": "^6.9.15"
+  }
+}
